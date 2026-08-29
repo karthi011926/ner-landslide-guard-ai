@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://ner-landslide-guard-ai.onrender.com";
 
 export const apiService = {
   // Fetch district risk heatmap data
