@@ -143,11 +143,33 @@ export default function CitizenReportModal({ isOpen, onClose, onReportSubmitted 
         {/* Modal Body */}
         <div className="p-5 overflow-y-auto space-y-4">
           
-          {/* Quick Demo Preset Selector */}
+          {/* Quick Demo Preset Selector + Custom Upload Button */}
           <div>
-            <label className="text-xs text-slate-400 font-semibold mb-1.5 block">
-              1. SELECT PRESET IMAGE OR UPLOAD LIVE PHOTO
-            </label>
+            <div className="flex items-center justify-between mb-1.5">
+              <label className="text-xs text-slate-400 font-semibold">
+                1. SELECT PRESET IMAGE OR UPLOAD CUSTOM PHOTO
+              </label>
+              <label className="cursor-pointer px-2.5 py-1 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-bold text-[11px] flex items-center gap-1.5 shadow transition-all">
+                <Upload className="w-3.5 h-3.5" /> Upload Live Photo
+                <input 
+                  type="file" 
+                  accept="image/*" 
+                  onChange={(e) => {
+                    const file = e.target.files?.[0];
+                    if (!file) return;
+                    const objectUrl = URL.createObjectURL(file);
+                    setSelectedPreset({
+                      title: file.name,
+                      category: 'CUSTOM_UPLOAD',
+                      url: objectUrl
+                    });
+                    handleFileUpload(e);
+                  }} 
+                  className="hidden" 
+                />
+              </label>
+            </div>
+
             <div className="grid grid-cols-3 gap-2">
               {DEMO_PRESET_IMAGES.map((p, idx) => (
                 <div

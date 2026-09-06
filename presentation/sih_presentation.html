@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIH 2026 Presentation - NER Landslide Guard AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f172a;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+    }
+    h1, h2, h3, .heading-font {
+      font-family: 'Montserrat', sans-serif;
+    }
+    /* 16:9 Widescreen Slide Container */
+    .slide-page {
+      width: 1333px;
+      height: 750px;
+      margin: 24px auto;
+      background: #ffffff;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      page-break-after: always;
+      box-sizing: border-box;
+    }
+    @media print {
+      body {
+        background: none;
+        padding: 0;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .slide-page {
+        margin: 0;
+        box-shadow: none;
+        border-radius: 0;
+        width: 100vw;
+        height: 100vh;
+        page-break-after: always;
+      }
+    }
+    .sih-blue { color: #1e3a8a; }
+    .sih-orange { color: #ea580c; }
+  </style>
+</head>
+<body class="py-8">
+
+  <!-- Floating Presentation Controls -->
+  <div class="no-print fixed top-4 right-6 z-50 flex items-center gap-3 bg-slate-900/90 backdrop-blur-md px-4 py-2.5 rounded-xl border border-slate-700 shadow-2xl">
+    <span class="text-white text-xs font-semibold">SIH 2026 Slide Deck (6 Slides)</span>
+    <button onclick="window.print()" class="px-4 py-1.5 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs rounded-lg shadow-lg flex items-center gap-1.5 transition-all">
+      📄 Save / Print as PDF
+    </button>
+  </div>
+
+  <!-- ==========================================
+       SLIDE 1: TITLE PAGE
+       ========================================== -->
+  <div class="slide-page p-12 relative flex flex-col justify-between">
+    <!-- Header -->
+    <div class="flex items-center justify-between border-b pb-4 border-slate-200">
+      <h1 class="text-3xl font-extrabold tracking-wider text-[#1e3a8a]">
+        SMART INDIA HACKATHON 2026
+      </h1>
+      <div class="flex items-center gap-3">
+        <div class="text-right">
+          <div class="text-xs font-black tracking-widest text-slate-800">SMART INDIA</div>
+          <div class="text-xs font-black tracking-widest text-[#ea580c]">HACKATHON 2026</div>
+        </div>
+        <div class="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center text-white font-black text-xs shadow">
+          SIH
+        </div>
+      </div>
+    </div>
+
+    <!-- Title Tag -->
+    <div class="text-center my-2">
+      <h2 class="text-3xl font-black tracking-wide text-slate-900 border-b-2 border-slate-300 pb-2 inline-block px-8">
+        TITLE PAGE
+      </h2>
+    </div>
+
+    <!-- Main Content Grid -->
+    <div class="grid grid-cols-12 gap-8 items-center flex-1 my-2">
+      <!-- Left Column: Details -->
+      <div class="col-span-7 space-y-4 text-base font-semibold text-slate-800">
+        <div class="flex items-baseline gap-2">
+          <span class="text-xl text-slate-900">•</span>
+          <span class="font-bold text-slate-900">Problem Statement ID –</span>
+          <span class="text-blue-700 font-mono font-bold">[Your PS ID]</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-xl text-slate-900">•</span>
+          <span class="font-bold text-slate-900">Problem Statement Title –</span>
+          <span class="text-slate-800 font-normal">AI-Based early warning and landslide Risk Monitoring System in NER</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-xl text-slate-900">•</span>
+          <span class="font-bold text-slate-900">Theme –</span>
+          <span class="text-slate-700">Disaster Management / Geo-Informatics</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-xl text-slate-900">•</span>
+          <span class="font-bold text-slate-900">PS Category –</span>
+          <span class="text-emerald-700 font-bold">Software</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-xl text-slate-900">•</span>
+          <span class="font-bold text-slate-900">Team ID –</span>
+          <span class="text-slate-700 font-mono">[Your Team ID]</span>
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-xl text-slate-900">•</span>
+          <span class="font-bold text-slate-900">Team Name (Registered on portal) –</span>
+          <span class="text-orange-600 font-black">[Your Team Name]</span>
+        </div>
+      </div>
+
+      <!-- Right Column: Brain Lightbulb Graphic -->
+      <div class="col-span-5 flex flex-col items-center justify-center">
+        <div class="relative w-64 h-64 flex items-center justify-center">
+          <div class="w-48 h-48 rounded-full border-4 border-dashed border-slate-300 flex items-center justify-center p-4">
+            <div class="w-36 h-36 rounded-2xl bg-gradient-to-tr from-amber-500 via-orange-600 to-blue-700 flex flex-col items-center justify-center text-white shadow-xl">
+              <span class="text-4xl mb-1">🧠⚡</span>
+              <span class="font-black text-sm tracking-widest">NER GUARD</span>
+              <span class="text-[10px] font-mono opacity-80">AI 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="flex justify-between items-center text-xs text-slate-400 border-t pt-3">
+      <span>@SIH Idea submission- Template</span>
+      <span class="font-bold text-slate-600">(1)</span>
+    </div>
+  </div>
+
+
+  <!-- ==========================================
+       SLIDE 2: PROPOSED SOLUTION
+       ========================================== -->
+  <div class="slide-page p-10 relative flex flex-col justify-between">
+    <!-- Header with Team Bubble -->
+    <div class="flex items-center justify-between">
+      <div class="border-2 border-blue-900 rounded-full px-4 py-1 text-xs font-bold text-blue-900 text-center">
+        Your Team Name
+      </div>
+      <h2 class="text-2xl font-black tracking-wider text-slate-900">
+        IDEA TITLE: NER LANDSLIDE GUARD AI
+      </h2>
+      <div class="text-right flex items-center gap-2">
+        <span class="text-xs font-bold text-[#ea580c]">SIH 2026</span>
+      </div>
+    </div>
+
+    <div class="text-blue-900 font-bold text-lg border-b pb-1 mt-1">
+      ❖ Proposed Solution (Describe your Idea/Solution/Prototype)
+    </div>
+
+    <!-- Main Grid -->
+    <div class="grid grid-cols-12 gap-6 items-center flex-1 my-2">
+      <!-- Left Column: 4 Pill Cards -->
+      <div class="col-span-5 flex flex-col justify-between h-full py-1 space-y-2.5">
+        <div class="bg-blue-600 text-white p-3.5 rounded-2xl shadow-md text-xs leading-snug">
+          <strong class="block text-sm mb-1 text-blue-100">1. Real-Time Data Ingestion</strong>
+          Continuously ingests 30m CartoDEM slopes, IMD 72-hour rainfall feeds, and Sentinel soil moisture saturation.
+        </div>
+        <div class="bg-blue-600 text-white p-3.5 rounded-2xl shadow-md text-xs leading-snug">
+          <strong class="block text-sm mb-1 text-blue-100">2. Two-Tier AI Risk Engine</strong>
+          Fuses static geomorphology with dynamic antecedent saturation to predict slope failure <strong>2 to 6 hours in advance</strong>.
+        </div>
+        <div class="bg-blue-600 text-white p-3.5 rounded-2xl shadow-md text-xs leading-snug">
+          <strong class="block text-sm mb-1 text-blue-100">3. Edge-AI Photo Verification</strong>
+          On-device computer vision scanner detects road tension cracks and mudflows with 96%+ accuracy before alert dispatch.
+        </div>
+        <div class="bg-blue-600 text-white p-3.5 rounded-2xl shadow-md text-xs leading-snug">
+          <strong class="block text-sm mb-1 text-blue-100">4. Voice-First Multilingual Access</strong>
+          Empowers non-literate citizens to speak in Hindi, Assamese, Bengali, or English and receive automated spoken safety advice.
+        </div>
+      </div>
+
+      <!-- Right Column: System Flowchart Diagram -->
+      <div class="col-span-7 border-2 border-slate-300 rounded-2xl p-4 bg-slate-50 flex flex-col justify-between h-full shadow-inner">
+        <div class="text-xs font-black text-center text-slate-700 uppercase tracking-wider mb-2">
+          System Architecture & Data Workflow
+        </div>
+        
+        <div class="space-y-2">
+          <!-- Step 1 -->
+          <div class="bg-white border border-slate-300 p-2 rounded-lg text-center shadow-sm">
+            <div class="text-xs font-bold text-blue-900">1. SYSTEM INPUT & DATA COLLECTION</div>
+            <div class="flex justify-around text-[10px] text-slate-600 mt-1 font-mono">
+              <span class="bg-slate-100 px-1.5 py-0.5 rounded">IMD Rainfall</span>
+              <span class="bg-slate-100 px-1.5 py-0.5 rounded">CartoDEM 30m</span>
+              <span class="bg-slate-100 px-1.5 py-0.5 rounded">Soil Moisture</span>
+              <span class="bg-slate-100 px-1.5 py-0.5 rounded">Field Photos</span>
+            </div>
+          </div>
+
+          <div class="text-center text-xs font-bold text-blue-700">▼</div>
+
+          <!-- Step 2 -->
+          <div class="bg-white border border-blue-400 p-2 rounded-lg text-center shadow-sm">
+            <div class="text-xs font-bold text-blue-900">2. TWO-TIER AI ML RISK ENGINE</div>
+            <div class="text-[11px] text-slate-700 mt-0.5">
+              Static Susceptibility (LSI) + Dynamic Antecedent Rainfall ($ARI$) ➔ Failure Probability
+            </div>
+          </div>
+
+          <div class="text-center text-xs font-bold text-blue-700">▼</div>
+
+          <!-- Step 3 -->
+          <div class="bg-white border border-amber-400 p-2 rounded-lg text-center shadow-sm">
+            <div class="text-xs font-bold text-amber-900">3. GIS COMMAND & EMERGENCY LOGISTICS</div>
+            <div class="text-[11px] text-slate-700 mt-0.5">
+              Interactive 3D Map • High-Risk Highway Blocking • Safe Bypass Routing
+            </div>
+          </div>
+
+          <div class="text-center text-xs font-bold text-blue-700">▼</div>
+
+          <!-- Step 4 -->
+          <div class="bg-blue-900 text-white p-2 rounded-lg text-center shadow-md">
+            <div class="text-xs font-bold">4. MULTILINGUAL ALERTS & 2G GSM SMS FALLBACK</div>
+            <div class="text-[10px] text-blue-200 mt-0.5">
+              Spoken Audio TTS (Hindi/Assamese) • Village Sirens • #SLIDE SMS Protocol
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="flex justify-between items-center text-xs text-slate-400 border-t pt-2">
+      <span>@SIH Idea submission- Template</span>
+      <span class="font-bold text-slate-600">2</span>
+    </div>
+  </div>
+
+
+  <!-- ==========================================
+       SLIDE 3: TECHNICAL APPROACH
+       ========================================== -->
+  <div class="slide-page p-10 relative flex flex-col justify-between">
+    <div class="flex items-center justify-between">
+      <div class="border-2 border-blue-900 rounded-full px-4 py-1 text-xs font-bold text-blue-900 text-center">
+        Your Team Name
+      </div>
+      <h2 class="text-2xl font-black tracking-wider text-slate-900">
+        TECHNICAL APPROACH & ARCHITECTURE
+      </h2>
+      <span class="text-xs font-bold text-[#ea580c]">SIH 2026</span>
+    </div>
+
+    <!-- Main Grid -->
+    <div class="grid grid-cols-12 gap-6 items-center flex-1 my-3">
+      <!-- Left Column: Architecture Diagram Graphic -->
+      <div class="col-span-6 bg-slate-900 text-white rounded-2xl p-4 flex flex-col justify-between h-full border border-slate-700 shadow-xl">
+        <div class="text-xs font-bold text-sky-400 uppercase tracking-wider text-center border-b border-slate-700 pb-2">
+          End-to-End System Architecture
+        </div>
+        
+        <div class="space-y-2 my-auto text-xs">
+          <div class="bg-slate-800 p-2 rounded border border-slate-700">
+            <span class="text-sky-400 font-bold block">Frontend & GIS Command:</span>
+            <span class="text-slate-300">React 18, Vite, TailwindCSS, Leaflet.js (2D/3D Topo & Satellite layers)</span>
+          </div>
+
+          <div class="bg-slate-800 p-2 rounded border border-slate-700">
+            <span class="text-emerald-400 font-bold block">Backend & ML Microservices:</span>
+            <span class="text-slate-300">Python 3.13, FastAPI, Uvicorn, SQLite3, Pydantic Schemas</span>
+          </div>
+
+          <div class="bg-slate-800 p-2 rounded border border-slate-700">
+            <span class="text-amber-400 font-bold block">AI Risk Fusion & Vision:</span>
+            <span class="text-slate-300">Two-Tier LSI + ARI Hydrological Model, Pillow CV Heuristics, Gemini LLM</span>
+          </div>
+
+          <div class="bg-slate-800 p-2 rounded border border-slate-700">
+            <span class="text-red-400 font-bold block">Voice & Audio Synthesis:</span>
+            <span class="text-slate-300">Web Speech Recognition (STT), Speech Synthesis (TTS), Web Audio Siren</span>
+          </div>
+        </div>
+
+        <div class="text-[10px] text-center font-mono text-slate-400 border-t border-slate-800 pt-1">
+          Open-Source Architecture • Zero Proprietary Licensing
+        </div>
+      </div>
+
+      <!-- Right Column: 4 Stacked Blue Cards -->
+      <div class="col-span-6 flex flex-col justify-between h-full space-y-2.5">
+        <div class="bg-[#2563eb] text-white p-3.5 rounded-2xl shadow font-semibold text-xs leading-relaxed">
+          <strong class="block text-sm font-bold text-white mb-0.5">1. Multi-Source Ingestion Pipeline</strong>
+          Automated hourly scraping of IMD weather forecasts, CartoSat DEM terrain elevation, and crowdsourced field photos.
+        </div>
+
+        <div class="bg-[#2563eb] text-white p-3.5 rounded-2xl shadow font-semibold text-xs leading-relaxed">
+          <strong class="block text-sm font-bold text-white mb-0.5">2. Two-Tier Landslide Risk Modeling</strong>
+          Evaluates Static Susceptibility ($LSI$) and Dynamic Saturation ($ARI$) using Caine empirical intensity-duration curves.
+        </div>
+
+        <div class="bg-[#2563eb] text-white p-3.5 rounded-2xl shadow font-semibold text-xs leading-relaxed">
+          <strong class="block text-sm font-bold text-white mb-0.5">3. Mountain Safe Routing Engine</strong>
+          Dynamically flags blocked mountain arteries (NH-10, NH-29, NH-6) and computes safe bypass routes for SDRF convoys.
+        </div>
+
+        <div class="bg-[#2563eb] text-white p-3.5 rounded-2xl shadow font-semibold text-xs leading-relaxed">
+          <strong class="block text-sm font-bold text-white mb-0.5">4. Resilient Last-Mile Alerting</strong>
+          Broadcasts in 8 regional dialects with speech audio readouts for non-literate citizens and 2G GSM SMS backup.
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="flex justify-between items-center text-xs text-slate-400 border-t pt-2">
+      <span>@SIH Idea submission- Template</span>
+      <span class="font-bold text-slate-600">3</span>
+    </div>
+  </div>
+
+
+  <!-- ==========================================
+       SLIDE 4: FEASIBILITY AND VIABILITY
+       ========================================== -->
+  <div class="slide-page p-10 relative flex flex-col justify-between">
+    <div class="flex items-center justify-between">
+      <div class="border-2 border-blue-900 rounded-full px-4 py-1 text-xs font-bold text-blue-900 text-center">
+        Your Team Name
+      </div>
+      <h2 class="text-2xl font-black tracking-wider text-slate-900">
+        FEASIBILITY AND VIABILITY
+      </h2>
+      <span class="text-xs font-bold text-[#ea580c]">SIH 2026</span>
+    </div>
+
+    <!-- Main 3-Column Layout -->
+    <div class="grid grid-cols-12 gap-6 items-center flex-1 my-3">
+      <!-- Left Card: Feasibility -->
+      <div class="col-span-4 bg-blue-600 text-white rounded-3xl p-5 h-full flex flex-col justify-between shadow-xl">
+        <div class="space-y-3 text-xs leading-relaxed">
+          <div class="font-bold text-sm text-blue-100 border-b border-blue-400 pb-1">Feasibility:</div>
+          <p>• <strong>Zero Licensing Cost:</strong> Built completely using open-source tools (FastAPI, React, Leaflet) and free weather APIs.</p>
+          <p>• <strong>Lightweight & Scalable:</strong> Fast sub-second inference models deployable on standard district collectorate servers.</p>
+          <p>• <strong>Low Resource Footprint:</strong> Runs smoothly in mobile browsers (PWA) with zero high-end hardware prerequisites.</p>
+        </div>
+        <div class="text-center font-black text-sm text-blue-200 mt-2">FEASIBILITY</div>
+      </div>
+
+      <!-- Center: 3-Circle Venn Diagram -->
+      <div class="col-span-4 flex flex-col items-center justify-center">
+        <div class="relative w-56 h-56 flex items-center justify-center">
+          <div class="absolute top-2 left-6 w-28 h-28 rounded-full border-2 border-blue-600 bg-blue-500/10 flex items-center justify-center text-xs font-bold text-blue-800">
+            Feasible
+          </div>
+          <div class="absolute top-2 right-6 w-28 h-28 rounded-full border-2 border-red-600 bg-red-500/10 flex items-center justify-center text-xs font-bold text-red-800">
+            Desirable
+          </div>
+          <div class="absolute bottom-2 w-28 h-28 rounded-full border-2 border-emerald-600 bg-emerald-500/10 flex items-center justify-center text-xs font-bold text-emerald-800">
+            Viable
+          </div>
+          <div class="absolute z-10 w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center font-black text-xs shadow-md">
+            ★
+          </div>
+        </div>
+        <span class="text-xs font-bold text-slate-500 mt-2">SIH High-Viability Zone</span>
+      </div>
+
+      <!-- Right Card: Reliability & Risk Mitigation -->
+      <div class="col-span-4 bg-blue-600 text-white rounded-3xl p-5 h-full flex flex-col justify-between shadow-xl">
+        <div class="space-y-3 text-xs leading-relaxed">
+          <div class="font-bold text-sm text-blue-100 border-b border-blue-400 pb-1">Reliability:</div>
+          <p>• <strong>Zero-Internet Resiliency:</strong> Mountain cell tower blackouts handled via offline IndexedDB sync + 2G GSM SMS decoding.</p>
+          <p>• <strong>Spam-Proof Verification:</strong> On-device computer vision models verify crack features before dispatching alerts.</p>
+          <p>• <strong>Inclusive Accessibility:</strong> Voice-first speech interface ensures illiterate villagers receive spoken emergency alerts.</p>
+        </div>
+        <div class="text-center font-black text-sm text-blue-200 mt-2">RELIABILITY</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="flex justify-between items-center text-xs text-slate-400 border-t pt-2">
+      <span>@SIH Idea submission- Template</span>
+      <span class="font-bold text-slate-600">4</span>
+    </div>
+  </div>
+
+
+  <!-- ==========================================
+       SLIDE 5: IMPACT AND BENEFITS
+       ========================================== -->
+  <div class="slide-page p-10 relative flex flex-col justify-between">
+    <div class="flex items-center justify-between">
+      <div class="border-2 border-blue-900 rounded-full px-4 py-1 text-xs font-bold text-blue-900 text-center">
+        Your Team Name
+      </div>
+      <h2 class="text-2xl font-black tracking-wider text-slate-900">
+        IMPACT AND BENEFITS
+      </h2>
+      <span class="text-xs font-bold text-[#ea580c]">SIH 2026</span>
+    </div>
+
+    <!-- Main 3-Column Layout -->
+    <div class="grid grid-cols-12 gap-6 items-center flex-1 my-3">
+      <!-- Left Card: IMPACTS (Brick Red) -->
+      <div class="col-span-4 bg-[#b91c1c] text-white rounded-3xl p-5 h-full flex flex-col justify-between shadow-xl">
+        <div class="space-y-2 text-xs leading-snug">
+          <div class="font-black text-sm text-red-200 border-b border-red-400 pb-1 uppercase tracking-wider">IMPACTS:</div>
+          <p>• <strong>Life Preservation:</strong> 2-to-6 hour pre-warning window enables timely evacuation of hillside villages.</p>
+          <p>• <strong>Lifeline Continuity:</strong> Prevents stranding of food, fuel, oxygen, and ambulances along NH-10 and NH-29.</p>
+          <p>• <strong>Rapid Emergency Dispatch:</strong> Provides DDMA precise coordinates for pre-deploying earthmovers.</p>
+          <p>• <strong>Digital Inclusion:</strong> Empowers non-literate mountain communities through spoken voice alerts.</p>
+        </div>
+        <div class="text-center font-black text-sm text-red-200 mt-1">IMPACTS</div>
+      </div>
+
+      <!-- Center: Infographic Box -->
+      <div class="col-span-4 border-2 border-slate-300 rounded-2xl p-4 bg-slate-50 flex flex-col justify-around h-full shadow-inner text-center">
+        <div class="text-xs font-extrabold text-slate-700 border-b pb-1">
+          NER Landslide Guard Impact Matrix
+        </div>
+        
+        <div class="grid grid-cols-2 gap-2 my-2 text-[11px] font-bold">
+          <div class="bg-white p-2 rounded-lg border shadow-sm">
+            <span class="text-lg block">⏱️</span>
+            <span>2-6h Early Warning</span>
+          </div>
+          <div class="bg-white p-2 rounded-lg border shadow-sm">
+            <span class="text-lg block">🛣️</span>
+            <span>Zero Road Paralysis</span>
+          </div>
+          <div class="bg-white p-2 rounded-lg border shadow-sm">
+            <span class="text-lg block">🎙️</span>
+            <span>Voice-First AI</span>
+          </div>
+          <div class="bg-white p-2 rounded-lg border shadow-sm">
+            <span class="text-lg block">📡</span>
+            <span>2G SMS Resilience</span>
+          </div>
+        </div>
+
+        <span class="text-[10px] text-slate-500 italic">Targeting Zero Fatalities in NER Monsoons</span>
+      </div>
+
+      <!-- Right Card: BENEFITS (Steel Blue) -->
+      <div class="col-span-4 bg-[#1d4ed8] text-white rounded-3xl p-5 h-full flex flex-col justify-between shadow-xl">
+        <div class="space-y-2 text-xs leading-snug">
+          <div class="font-black text-sm text-blue-200 border-b border-blue-400 pb-1 uppercase tracking-wider">BENEFITS:</div>
+          <p>• <strong>Economic Savings:</strong> Prevents millions in supply-chain losses by dynamically rerouting convoys.</p>
+          <p>• <strong>Low-Cost Governance:</strong> 100% free open-source architecture saves state governments recurring software fees.</p>
+          <p>• <strong>Proactive Infrastructure:</strong> Assists PWD/NHIDCL in identifying unstable slope cuttings for retaining walls.</p>
+          <p>• <strong>Community Empowerment:</strong> Crowdsourced Edge-AI enables ground officers to act as instant sensor nodes.</p>
+        </div>
+        <div class="text-center font-black text-sm text-blue-200 mt-1">BENEFITS</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="flex justify-between items-center text-xs text-slate-400 border-t pt-2">
+      <span>@SIH Idea submission- Template</span>
+      <span class="font-bold text-slate-600">5</span>
+    </div>
+  </div>
+
+
+  <!-- ==========================================
+       SLIDE 6: RESEARCH AND REFERENCES
+       ========================================== -->
+  <div class="slide-page p-10 relative flex flex-col justify-between">
+    <div class="flex items-center justify-between">
+      <div class="border-2 border-blue-900 rounded-full px-4 py-1 text-xs font-bold text-blue-900 text-center">
+        Your Team Name
+      </div>
+      <h2 class="text-2xl font-black tracking-wider text-slate-900">
+        RESEARCH AND REFERENCES
+      </h2>
+      <span class="text-xs font-bold text-[#ea580c]">SIH 2026</span>
+    </div>
+
+    <!-- References Content -->
+    <div class="my-auto space-y-4 px-6 text-sm">
+      <div class="flex items-start gap-3">
+        <span class="text-blue-600 font-bold">•</span>
+        <a href="https://gsi.gov.in" class="text-blue-700 underline font-medium hover:text-blue-900">
+          Geological Survey of India (GSI) – Landslide Atlas of India & Bhukosh Geological Spatial Database
+        </a>
+      </div>
+
+      <div class="flex items-start gap-3">
+        <span class="text-blue-600 font-bold">•</span>
+        <a href="https://ndma.gov.in" class="text-blue-700 underline font-medium hover:text-blue-900">
+          National Disaster Management Authority (NDMA) – Guidelines on Management of Landslides & Snow Avalanches
+        </a>
+      </div>
+
+      <div class="flex items-start gap-3">
+        <span class="text-blue-600 font-bold">•</span>
+        <a href="https://bhuvan.nrsc.gov.in" class="text-blue-700 underline font-medium hover:text-blue-900">
+          ISRO Bhuvan Portal – Indian Geo-Platform for Disaster Management Support Services
+        </a>
+      </div>
+
+      <div class="flex items-start gap-3">
+        <span class="text-blue-600 font-bold">•</span>
+        <span class="text-slate-800 font-medium">
+          Caine, N. (1980) – <em>The Rainfall Intensity-Duration Thresholds for Shallow Landslides and Debris Flows</em>
+        </span>
+      </div>
+
+      <div class="flex items-start gap-3">
+        <span class="text-blue-600 font-bold">•</span>
+        <a href="https://open-meteo.com" class="text-blue-700 underline font-medium hover:text-blue-900">
+          Open-Meteo & IMD – High-Resolution Precipitation and Soil Moisture Meteorological Data Feeds
+        </a>
+      </div>
+
+      <div class="flex items-start gap-3 bg-blue-50 p-3 rounded-xl border border-blue-200">
+        <span class="text-blue-600 font-bold">🔗</span>
+        <div>
+          <strong class="text-slate-900">Working Prototype & Source Code Repository:</strong><br/>
+          <a href="https://github.com/karthi011926/ner-landslide-guard-ai" class="text-blue-700 underline font-mono text-xs break-all">
+            https://github.com/karthi011926/ner-landslide-guard-ai
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="flex justify-between items-center text-xs text-slate-400 border-t pt-2">
+      <span>@SIH Idea submission- Template</span>
+      <span class="font-bold text-slate-600">6</span>
+    </div>
+  </div>
+
+</body>
+</html>
