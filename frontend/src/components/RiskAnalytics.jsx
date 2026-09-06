@@ -95,9 +95,9 @@ export default function RiskAnalytics({
             onChange={(e) => onScenarioChange(e.target.value)}
             className="bg-transparent text-xs text-slate-200 font-medium focus:outline-none cursor-pointer"
           >
-            <option value="cloudburst_monsoon" className="bg-slate-900">2024 Monsoon Cloudburst (High Slide)</option>
-            <option value="cyclone_remal" className="bg-slate-900">Cyclone Remal Inundation (Extreme)</option>
-            <option value="live" className="bg-slate-900">Live IMD / Open-Meteo Telemetry</option>
+            <option value="cloudburst_monsoon" className="bg-slate-900">2026 Monsoon Cloudburst (High Slide)</option>
+            <option value="cyclone_remal" className="bg-slate-900">2026 Cyclone Inundation (Extreme)</option>
+            <option value="live" className="bg-slate-900">Live IMD / Open-Meteo Telemetry (2026)</option>
             <option value="moderate_showers" className="bg-slate-900">Moderate Seasonal Showers</option>
             <option value="clear_dry" className="bg-slate-900">Dry Season Baseline</option>
           </select>
