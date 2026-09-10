@@ -1,0 +1,201 @@
+point_id,survey_location,latitude,longitude,elevation_z_meters,slope_gradient_deg,curvature_index,rock_joint_dip_deg
+DEM-001,Kalijhora Cut-Slope (Sikkim),26.934519,88.463056,626.13,51.8,-0.51,61.1
+DEM-002,Kalijhora Cut-Slope (Sikkim),26.934812,88.467446,507.8,45.2,-0.2,44.0
+DEM-003,Kalijhora Cut-Slope (Sikkim),26.939569,88.464523,517.84,30.4,0.74,59.3
+DEM-004,Kalijhora Cut-Slope (Sikkim),26.939045,88.465265,541.15,42.7,-1.04,52.5
+DEM-005,Kalijhora Cut-Slope (Sikkim),26.936498,88.471435,559.49,36.0,1.23,56.7
+DEM-006,Kalijhora Cut-Slope (Sikkim),26.934892,88.4701,562.67,36.1,0.38,44.5
+DEM-007,Kalijhora Cut-Slope (Sikkim),26.933854,88.466387,482.03,33.7,-0.95,40.9
+DEM-008,Kalijhora Cut-Slope (Sikkim),26.94292,88.467953,648.15,44.1,-0.84,46.7
+DEM-009,Kalijhora Cut-Slope (Sikkim),26.934233,88.46737,649.35,38.0,-0.26,46.4
+DEM-010,Kalijhora Cut-Slope (Sikkim),26.939007,88.467349,596.27,37.3,-1.18,59.6
+DEM-011,Kalijhora Cut-Slope (Sikkim),26.942396,88.472282,532.26,54.0,0.83,61.9
+DEM-012,Kalijhora Cut-Slope (Sikkim),26.936481,88.468097,556.84,46.1,0.14,57.0
+DEM-013,Kalijhora Cut-Slope (Sikkim),26.941616,88.468166,575.27,30.4,0.01,49.7
+DEM-014,Kalijhora Cut-Slope (Sikkim),26.940823,88.46719,553.35,38.2,0.38,58.9
+DEM-015,Kalijhora Cut-Slope (Sikkim),26.933532,88.470529,587.12,41.5,-0.63,57.9
+DEM-016,Kalijhora Cut-Slope (Sikkim),26.933968,88.465045,602.5,32.8,0.75,47.1
+DEM-017,Kalijhora Cut-Slope (Sikkim),26.93929,88.471361,525.53,36.9,0.65,64.9
+DEM-018,Kalijhora Cut-Slope (Sikkim),26.94002,88.469051,515.15,43.4,1.4,54.7
+DEM-019,Kalijhora Cut-Slope (Sikkim),26.939283,88.468179,624.47,51.5,-1.04,41.8
+DEM-020,Kalijhora Cut-Slope (Sikkim),26.941205,88.466103,565.61,33.3,0.55,59.8
+DEM-021,Kalijhora Cut-Slope (Sikkim),26.940489,88.465661,611.66,36.5,0.4,48.5
+DEM-022,Kalijhora Cut-Slope (Sikkim),26.939374,88.463926,556.76,52.6,0.0,55.5
+DEM-023,Kalijhora Cut-Slope (Sikkim),26.941724,88.46564,620.36,52.2,1.12,43.7
+DEM-024,Kalijhora Cut-Slope (Sikkim),26.938806,88.470773,613.37,28.7,-0.23,40.9
+DEM-025,Kalijhora Cut-Slope (Sikkim),26.937761,88.468634,597.75,31.6,-1.1,55.9
+DEM-026,Kalijhora Cut-Slope (Sikkim),26.936502,88.468514,523.12,38.9,-1.1,60.6
+DEM-027,Kalijhora Cut-Slope (Sikkim),26.936154,88.470937,634.79,49.7,-0.56,58.8
+DEM-028,Kalijhora Cut-Slope (Sikkim),26.935834,88.470928,601.16,32.5,0.98,47.1
+DEM-029,Kalijhora Cut-Slope (Sikkim),26.942521,88.472305,569.94,37.4,0.26,49.8
+DEM-030,Kalijhora Cut-Slope (Sikkim),26.93408,88.465284,583.48,29.3,0.86,53.9
+DEM-031,Kalijhora Cut-Slope (Sikkim),26.941874,88.464465,558.07,28.6,0.78,53.2
+DEM-032,Kalijhora Cut-Slope (Sikkim),26.937128,88.467889,505.16,39.5,-0.15,57.8
+DEM-033,Kalijhora Cut-Slope (Sikkim),26.941185,88.472089,542.38,37.5,0.08,50.4
+DEM-034,Kalijhora Cut-Slope (Sikkim),26.939954,88.472468,568.03,44.7,1.74,62.6
+DEM-035,Kalijhora Cut-Slope (Sikkim),26.940894,88.470606,519.19,32.0,-1.09,55.2
+DEM-036,Kalijhora Cut-Slope (Sikkim),26.941432,88.466016,577.06,44.1,-0.68,64.3
+DEM-037,Kalijhora Cut-Slope (Sikkim),26.942108,88.469773,571.51,44.3,0.56,61.1
+DEM-038,Kalijhora Cut-Slope (Sikkim),26.933918,88.470446,511.28,51.8,-0.65,55.0
+DEM-039,Kalijhora Cut-Slope (Sikkim),26.93977,88.464018,523.64,30.4,-0.42,58.3
+DEM-040,Kalijhora Cut-Slope (Sikkim),26.937048,88.472588,625.02,46.8,1.59,49.9
+DEM-041,Kalijhora Cut-Slope (Sikkim),26.936118,88.465988,644.83,32.1,0.12,48.5
+DEM-042,Kalijhora Cut-Slope (Sikkim),26.935622,88.46532,648.18,44.8,1.76,54.0
+DEM-043,Kalijhora Cut-Slope (Sikkim),26.939964,88.466299,529.55,38.3,0.5,44.0
+DEM-044,Kalijhora Cut-Slope (Sikkim),26.935764,88.469223,499.08,33.6,-0.81,47.4
+DEM-045,Kalijhora Cut-Slope (Sikkim),26.942932,88.463511,557.82,51.7,-0.51,62.9
+DEM-046,Kalijhora Cut-Slope (Sikkim),26.93661,88.465502,623.11,39.7,0.29,54.3
+DEM-047,Kalijhora Cut-Slope (Sikkim),26.935965,88.463051,659.71,30.1,1.49,44.1
+DEM-048,Kalijhora Cut-Slope (Sikkim),26.937861,88.469954,601.05,30.6,0.1,62.5
+DEM-049,Kalijhora Cut-Slope (Sikkim),26.93536,88.47131,580.86,44.7,-1.09,55.1
+DEM-050,Kalijhora Cut-Slope (Sikkim),26.937596,88.468034,580.08,35.4,-0.78,58.8
+DEM-051,Kalijhora Cut-Slope (Sikkim),26.939069,88.468277,657.68,49.4,0.85,63.3
+DEM-052,Kalijhora Cut-Slope (Sikkim),26.933005,88.469819,616.46,33.6,-0.17,49.5
+DEM-053,Kalijhora Cut-Slope (Sikkim),26.93491,88.46449,547.01,45.1,1.35,64.5
+DEM-054,Kalijhora Cut-Slope (Sikkim),26.942476,88.464864,583.2,50.5,0.14,60.7
+DEM-055,Kalijhora Cut-Slope (Sikkim),26.938717,88.464146,618.7,31.9,1.35,45.8
+DEM-056,Kalijhora Cut-Slope (Sikkim),26.933292,88.467344,500.79,46.9,0.91,60.3
+DEM-057,Kalijhora Cut-Slope (Sikkim),26.942901,88.471109,563.21,30.1,0.89,55.3
+DEM-058,Kalijhora Cut-Slope (Sikkim),26.934825,88.468465,529.22,39.6,1.51,63.8
+DEM-059,Kalijhora Cut-Slope (Sikkim),26.933739,88.467115,586.43,50.6,0.12,52.1
+DEM-060,Kalijhora Cut-Slope (Sikkim),26.939675,88.470818,502.6,40.9,0.81,58.7
+DEM-061,Kalijhora Cut-Slope (Sikkim),26.935031,88.467111,504.66,50.3,-0.23,43.7
+DEM-062,Kalijhora Cut-Slope (Sikkim),26.941784,88.469415,579.82,51.8,0.34,59.5
+DEM-063,Kalijhora Cut-Slope (Sikkim),26.942687,88.468797,620.24,39.1,-0.95,50.5
+DEM-064,Kalijhora Cut-Slope (Sikkim),26.94151,88.46991,548.93,42.8,-0.06,43.2
+DEM-065,Kalijhora Cut-Slope (Sikkim),26.935001,88.467362,523.9,37.9,0.47,47.4
+DEM-066,Kalijhora Cut-Slope (Sikkim),26.936756,88.471937,555.46,34.1,1.7,55.4
+DEM-067,Kalijhora Cut-Slope (Sikkim),26.937975,88.470048,507.88,30.6,1.75,50.2
+DEM-068,Kalijhora Cut-Slope (Sikkim),26.935048,88.471041,554.04,36.5,1.32,49.4
+DEM-069,Kalijhora Cut-Slope (Sikkim),26.933218,88.469286,507.26,34.6,1.06,52.2
+DEM-070,Kalijhora Cut-Slope (Sikkim),26.9332,88.463639,528.28,45.7,1.6,58.1
+DEM-071,Kalijhora Cut-Slope (Sikkim),26.938436,88.472095,560.18,34.4,0.93,56.0
+DEM-072,Kalijhora Cut-Slope (Sikkim),26.934382,88.467656,618.24,29.2,1.68,50.6
+DEM-073,Kalijhora Cut-Slope (Sikkim),26.937993,88.472152,490.56,33.1,1.34,49.7
+DEM-074,Kalijhora Cut-Slope (Sikkim),26.934495,88.472572,608.6,44.3,-0.86,64.6
+DEM-075,Kalijhora Cut-Slope (Sikkim),26.937249,88.471538,489.68,34.1,-0.7,48.7
+DEM-076,Kalijhora Cut-Slope (Sikkim),26.940832,88.471156,493.67,46.8,-1.07,56.3
+DEM-077,Kalijhora Cut-Slope (Sikkim),26.937945,88.468896,522.6,42.0,0.77,40.9
+DEM-078,Kalijhora Cut-Slope (Sikkim),26.935474,88.466465,560.1,28.3,1.13,45.6
+DEM-079,Kalijhora Cut-Slope (Sikkim),26.933968,88.471962,602.98,49.4,0.72,60.2
+DEM-080,Kalijhora Cut-Slope (Sikkim),26.936221,88.472237,598.68,49.3,-0.46,59.2
+DEM-081,Kalijhora Cut-Slope (Sikkim),26.934007,88.470748,583.08,37.4,0.26,40.4
+DEM-082,Kalijhora Cut-Slope (Sikkim),26.93838,88.463891,489.8,41.0,0.74,53.4
+DEM-083,Kalijhora Cut-Slope (Sikkim),26.939292,88.470821,558.33,39.2,1.27,60.0
+DEM-084,Kalijhora Cut-Slope (Sikkim),26.938895,88.46352,589.35,35.4,-1.12,48.5
+DEM-085,Kalijhora Cut-Slope (Sikkim),26.940951,88.464952,641.7,47.7,1.35,41.8
+DEM-086,Kalijhora Cut-Slope (Sikkim),26.934885,88.465445,480.36,33.4,-0.83,44.4
+DEM-087,Kalijhora Cut-Slope (Sikkim),26.935443,88.465232,579.13,39.3,-0.41,48.9
+DEM-088,Kalijhora Cut-Slope (Sikkim),26.936425,88.464565,598.77,32.0,-0.29,47.8
+DEM-089,Kalijhora Cut-Slope (Sikkim),26.942877,88.469952,610.0,33.5,1.53,46.5
+DEM-090,Kalijhora Cut-Slope (Sikkim),26.935549,88.46527,594.13,33.0,1.4,45.9
+DEM-091,Kalijhora Cut-Slope (Sikkim),26.937499,88.470045,636.15,47.0,-0.65,44.8
+DEM-092,Kalijhora Cut-Slope (Sikkim),26.935366,88.471997,522.46,53.6,-0.09,43.0
+DEM-093,Kalijhora Cut-Slope (Sikkim),26.934376,88.470369,484.38,37.4,0.17,44.7
+DEM-094,Kalijhora Cut-Slope (Sikkim),26.933792,88.464074,525.51,51.2,0.92,52.0
+DEM-095,Kalijhora Cut-Slope (Sikkim),26.940151,88.466681,530.67,31.8,1.33,43.9
+DEM-096,Kalijhora Cut-Slope (Sikkim),26.94266,88.46543,600.42,36.5,1.51,61.0
+DEM-097,Kalijhora Cut-Slope (Sikkim),26.935706,88.471361,571.29,53.8,-1.06,53.3
+DEM-098,Kalijhora Cut-Slope (Sikkim),26.941318,88.464418,624.77,31.9,-0.06,44.6
+DEM-099,Kalijhora Cut-Slope (Sikkim),26.938051,88.46594,538.52,46.0,1.74,46.3
+DEM-100,Kalijhora Cut-Slope (Sikkim),26.933437,88.469417,550.38,53.0,1.41,63.5
+DEM-001,Dzüdza River Valley (Nagaland),25.685848,93.990309,1252.41,47.5,0.65,40.8
+DEM-002,Dzüdza River Valley (Nagaland),25.687814,93.989677,1275.66,39.1,1.55,60.1
+DEM-003,Dzüdza River Valley (Nagaland),25.689243,93.989277,1121.3,32.6,0.72,64.5
+DEM-004,Dzüdza River Valley (Nagaland),25.685667,93.988782,1143.09,43.0,0.86,58.6
+DEM-005,Dzüdza River Valley (Nagaland),25.686449,93.994226,1257.01,42.3,-0.23,53.5
+DEM-006,Dzüdza River Valley (Nagaland),25.693637,93.991282,1197.15,49.5,0.21,63.8
+DEM-007,Dzüdza River Valley (Nagaland),25.693555,93.988957,1197.11,40.0,0.03,53.7
+DEM-008,Dzüdza River Valley (Nagaland),25.691309,93.996401,1260.49,45.7,-1.05,56.3
+DEM-009,Dzüdza River Valley (Nagaland),25.686678,93.993327,1197.18,38.3,-1.12,55.2
+DEM-010,Dzüdza River Valley (Nagaland),25.685756,93.990045,1268.7,47.5,1.27,43.6
+DEM-011,Dzüdza River Valley (Nagaland),25.691976,93.993952,1162.35,28.6,1.76,48.0
+DEM-012,Dzüdza River Valley (Nagaland),25.684018,93.987228,1152.79,50.0,0.77,61.1
+DEM-013,Dzüdza River Valley (Nagaland),25.684953,93.993964,1217.35,46.3,1.27,60.6
+DEM-014,Dzüdza River Valley (Nagaland),25.688934,93.989329,1265.14,42.7,-0.0,45.5
+DEM-015,Dzüdza River Valley (Nagaland),25.689206,93.991295,1122.22,28.1,0.78,62.9
+DEM-016,Dzüdza River Valley (Nagaland),25.690169,93.992315,1150.53,31.1,-0.33,52.2
+DEM-017,Dzüdza River Valley (Nagaland),25.685855,93.996216,1272.56,43.6,-0.75,46.6
+DEM-018,Dzüdza River Valley (Nagaland),25.689358,93.995326,1173.75,37.2,0.63,56.9
+DEM-019,Dzüdza River Valley (Nagaland),25.69325,93.996248,1181.21,40.4,-0.2,41.1
+DEM-020,Dzüdza River Valley (Nagaland),25.693726,93.987795,1247.88,45.2,-0.35,53.0
+DEM-021,Dzüdza River Valley (Nagaland),25.693635,93.993386,1171.7,46.1,-0.35,47.5
+DEM-022,Dzüdza River Valley (Nagaland),25.686632,93.988229,1150.45,37.5,-0.3,59.6
+DEM-023,Dzüdza River Valley (Nagaland),25.684742,93.991278,1213.85,49.5,-0.11,61.0
+DEM-024,Dzüdza River Valley (Nagaland),25.687971,93.98774,1273.19,37.5,1.42,49.8
+DEM-025,Dzüdza River Valley (Nagaland),25.689319,93.990794,1188.67,46.3,1.67,43.5
+DEM-026,Dzüdza River Valley (Nagaland),25.692072,93.994943,1272.34,34.2,0.06,47.3
+DEM-027,Dzüdza River Valley (Nagaland),25.691286,93.988313,1128.42,40.7,-0.13,63.2
+DEM-028,Dzüdza River Valley (Nagaland),25.688454,93.989707,1149.65,51.9,1.09,45.1
+DEM-029,Dzüdza River Valley (Nagaland),25.691424,93.993912,1295.91,28.4,0.93,53.3
+DEM-030,Dzüdza River Valley (Nagaland),25.685061,93.996133,1126.55,39.8,-0.4,44.1
+DEM-031,Dzüdza River Valley (Nagaland),25.688487,93.987834,1181.31,49.6,0.91,63.7
+DEM-032,Dzüdza River Valley (Nagaland),25.686386,93.996939,1208.8,45.6,1.43,48.2
+DEM-033,Dzüdza River Valley (Nagaland),25.687516,93.994619,1283.96,47.7,-0.36,61.5
+DEM-034,Dzüdza River Valley (Nagaland),25.686252,93.990479,1222.0,29.7,1.59,46.6
+DEM-035,Dzüdza River Valley (Nagaland),25.690936,93.993408,1248.5,51.6,-1.08,51.7
+DEM-036,Dzüdza River Valley (Nagaland),25.693787,93.995499,1202.45,53.6,-0.18,64.1
+DEM-037,Dzüdza River Valley (Nagaland),25.686097,93.990169,1141.08,52.1,-0.08,47.8
+DEM-038,Dzüdza River Valley (Nagaland),25.688018,93.989323,1157.99,32.3,-0.61,59.3
+DEM-039,Dzüdza River Valley (Nagaland),25.686802,93.988352,1195.45,41.6,-1.02,49.5
+DEM-040,Dzüdza River Valley (Nagaland),25.68924,93.988912,1186.39,33.1,0.18,56.4
+DEM-041,Dzüdza River Valley (Nagaland),25.691318,93.98874,1242.96,32.3,-0.45,54.0
+DEM-042,Dzüdza River Valley (Nagaland),25.688598,93.994697,1137.36,33.8,1.42,49.6
+DEM-043,Dzüdza River Valley (Nagaland),25.686411,93.988684,1172.04,36.8,-0.99,41.1
+DEM-044,Dzüdza River Valley (Nagaland),25.687884,93.987691,1287.76,37.2,-0.37,55.3
+DEM-045,Dzüdza River Valley (Nagaland),25.692324,93.99427,1191.35,37.3,1.47,54.6
+DEM-046,Dzüdza River Valley (Nagaland),25.688312,93.989749,1260.9,46.5,-0.95,44.2
+DEM-047,Dzüdza River Valley (Nagaland),25.689663,93.994961,1247.16,38.9,1.46,56.5
+DEM-048,Dzüdza River Valley (Nagaland),25.6874,93.989848,1160.45,39.1,-0.83,62.7
+DEM-049,Dzüdza River Valley (Nagaland),25.686497,93.992161,1251.29,47.7,-1.07,52.8
+DEM-050,Dzüdza River Valley (Nagaland),25.691355,93.995673,1204.27,31.4,-0.36,42.3
+DEM-051,Dzüdza River Valley (Nagaland),25.688256,93.99277,1173.38,42.5,1.15,42.5
+DEM-052,Dzüdza River Valley (Nagaland),25.689008,93.989446,1285.58,43.7,0.16,40.3
+DEM-053,Dzüdza River Valley (Nagaland),25.685053,93.991004,1160.32,38.4,-0.03,52.3
+DEM-054,Dzüdza River Valley (Nagaland),25.685962,93.993027,1143.86,28.1,0.53,53.9
+DEM-055,Dzüdza River Valley (Nagaland),25.687091,93.993483,1179.98,43.8,-0.61,58.9
+DEM-056,Dzüdza River Valley (Nagaland),25.684649,93.99492,1290.04,51.0,-0.25,54.2
+DEM-057,Dzüdza River Valley (Nagaland),25.689225,93.990196,1225.73,38.9,-0.2,46.5
+DEM-058,Dzüdza River Valley (Nagaland),25.693819,93.990177,1156.32,36.4,-1.07,59.3
+DEM-059,Dzüdza River Valley (Nagaland),25.691334,93.992669,1163.48,32.3,-0.27,42.7
+DEM-060,Dzüdza River Valley (Nagaland),25.691797,93.991753,1276.81,28.8,0.57,41.7
+DEM-061,Dzüdza River Valley (Nagaland),25.692318,93.987381,1202.58,42.3,-0.17,58.7
+DEM-062,Dzüdza River Valley (Nagaland),25.686214,93.994663,1120.23,53.7,1.54,63.7
+DEM-063,Dzüdza River Valley (Nagaland),25.687003,93.995975,1218.37,48.8,0.58,47.0
+DEM-064,Dzüdza River Valley (Nagaland),25.686023,93.987054,1120.87,32.2,-1.04,62.0
+DEM-065,Dzüdza River Valley (Nagaland),25.691126,93.995793,1221.8,34.5,-0.64,63.6
+DEM-066,Dzüdza River Valley (Nagaland),25.687664,93.989834,1216.67,45.8,1.34,53.4
+DEM-067,Dzüdza River Valley (Nagaland),25.687831,93.995684,1157.31,32.9,0.21,49.6
+DEM-068,Dzüdza River Valley (Nagaland),25.692542,93.988857,1162.85,32.1,-0.45,57.1
+DEM-069,Dzüdza River Valley (Nagaland),25.687601,93.996784,1242.88,33.2,-0.27,46.5
+DEM-070,Dzüdza River Valley (Nagaland),25.686508,93.990636,1224.02,52.8,-0.14,49.7
+DEM-071,Dzüdza River Valley (Nagaland),25.687802,93.990086,1200.47,36.2,-0.72,57.0
+DEM-072,Dzüdza River Valley (Nagaland),25.692718,93.995322,1295.32,35.9,0.26,42.9
+DEM-073,Dzüdza River Valley (Nagaland),25.685676,93.989979,1170.88,51.0,1.59,58.1
+DEM-074,Dzüdza River Valley (Nagaland),25.693111,93.993844,1145.36,49.7,-0.85,45.4
+DEM-075,Dzüdza River Valley (Nagaland),25.687065,93.995999,1200.69,49.8,0.3,54.7
+DEM-076,Dzüdza River Valley (Nagaland),25.691616,93.993214,1224.43,48.6,-0.73,40.6
+DEM-077,Dzüdza River Valley (Nagaland),25.684747,93.995149,1232.75,39.2,1.39,59.8
+DEM-078,Dzüdza River Valley (Nagaland),25.69204,93.99272,1173.15,40.3,0.66,49.7
+DEM-079,Dzüdza River Valley (Nagaland),25.693792,93.994991,1232.43,34.3,1.11,46.2
+DEM-080,Dzüdza River Valley (Nagaland),25.686986,93.992885,1122.48,47.8,-0.78,40.6
+DEM-081,Dzüdza River Valley (Nagaland),25.693316,93.995093,1234.13,37.6,-0.14,53.5
+DEM-082,Dzüdza River Valley (Nagaland),25.693271,93.996038,1195.66,31.4,0.36,47.2
+DEM-083,Dzüdza River Valley (Nagaland),25.69338,93.995461,1266.42,41.3,-0.14,63.0
+DEM-084,Dzüdza River Valley (Nagaland),25.689797,93.994865,1208.03,34.4,1.76,46.6
+DEM-085,Dzüdza River Valley (Nagaland),25.689849,93.987322,1139.78,53.8,0.76,50.5
+DEM-086,Dzüdza River Valley (Nagaland),25.684755,93.993976,1253.87,49.9,0.01,47.1
+DEM-087,Dzüdza River Valley (Nagaland),25.69385,93.995128,1299.09,48.1,1.02,63.6
+DEM-088,Dzüdza River Valley (Nagaland),25.690062,93.987184,1145.27,34.8,1.72,40.6
+DEM-089,Dzüdza River Valley (Nagaland),25.687603,93.992158,1253.79,42.4,-0.76,58.2
+DEM-090,Dzüdza River Valley (Nagaland),25.686887,93.994816,1142.14,43.5,-0.83,54.4
+DEM-091,Dzüdza River Valley (Nagaland),25.685035,93.993554,1158.53,46.1,-0.75,48.2
+DEM-092,Dzüdza River Valley (Nagaland),25.684661,93.994127,1148.92,29.8,-0.04,41.7
+DEM-093,Dzüdza River Valley (Nagaland),25.690634,93.993946,1298.81,33.6,-0.94,54.6
+DEM-094,Dzüdza River Valley (Nagaland),25.687417,93.995548,1262.71,30.9,1.77,43.6
+DEM-095,Dzüdza River Valley (Nagaland),25.686819,93.987125,1122.52,28.5,0.6,55.7
+DEM-096,Dzüdza River Valley (Nagaland),25.689259,93.993287,1155.99,32.8,0.88,57.0
+DEM-097,Dzüdza River Valley (Nagaland),25.692843,93.987594,1261.12,53.6,-0.81,45.6
+DEM-098,Dzüdza River Valley (Nagaland),25.692507,93.994108,1145.46,40.3,0.69,44.3
+DEM-099,Dzüdza River Valley (Nagaland),25.687574,93.994791,1246.09,45.9,-0.32,63.5
+DEM-100,Dzüdza River Valley (Nagaland),25.69352,93.989628,1190.14,51.4,1.19,46.4

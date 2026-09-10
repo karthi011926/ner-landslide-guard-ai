@@ -1,0 +1,6 @@
+facility_id,facility_name,state,district,latitude,longitude,emergency_icu_beds,oxygen_cylinders_stock,shelter_capacity_persons,helipad_available,24x7_helpline
+HOSP-SKM-01,STNM Multi-Speciality Hospital (Sochakgang),Sikkim,East Sikkim,27.319,88.598,65,280,450,1,03592-202944
+HOSP-NGL-01,Naga Hospital Authority (Kohima),Nagaland,Kohima,25.671,94.106,45,190,300,1,0370-2222916
+HOSP-MEG-01,NEIGRIHMS Super Speciality (Shillong),Meghalaya,East Khasi Hills,25.592,91.938,110,450,800,1,0364-2538025
+HOSP-ASM-01,Silchar Medical College & Hospital (SMCH),Assam,Cachar,24.812,92.795,85,360,600,1,03842-240222
+CAMP-SKM-01,Singtam Relief & Evacuation Shelter Camp,Sikkim,East Sikkim,27.234,88.498,10,40,1200,0,1077

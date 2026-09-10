@@ -1,0 +1,18 @@
+station_name,latitude,longitude,hour_step,hourly_intensity_mm_h,cumulative_precipitation_mm,soil_pore_moisture_pct,caine_threshold_exceeded,alarm_state
+Gangtok AWS (Sikkim),27.33,88.6,T+01h,8.5,8.5,52.0,0,NORMAL
+Gangtok AWS (Sikkim),27.33,88.6,T+06h,14.2,68.0,64.5,0,NORMAL
+Gangtok AWS (Sikkim),27.33,88.6,T+12h,28.5,142.0,78.2,1,HIGH_WARNING
+Gangtok AWS (Sikkim),27.33,88.6,T+18h,46.0,225.0,89.5,1,CRITICAL_COLLAPSE
+Gangtok AWS (Sikkim),27.33,88.6,T+24h,38.0,285.0,94.0,1,CRITICAL_COLLAPSE
+Kohima AWS (Nagaland),25.68,93.99,T+01h,6.2,6.2,48.0,0,NORMAL
+Kohima AWS (Nagaland),25.68,93.99,T+12h,22.0,118.0,74.0,0,NORMAL
+Kohima AWS (Nagaland),25.68,93.99,T+18h,39.5,198.0,88.0,1,CRITICAL_COLLAPSE
+Kohima AWS (Nagaland),25.68,93.99,T+24h,31.0,245.0,92.5,1,CRITICAL_COLLAPSE
+Cherrapunji AWS (Meghalaya),25.27,91.73,T+01h,12.0,12.0,55.0,0,NORMAL
+Cherrapunji AWS (Meghalaya),25.27,91.73,T+12h,34.0,185.0,82.0,1,HIGH_WARNING
+Cherrapunji AWS (Meghalaya),25.27,91.73,T+18h,68.0,320.0,96.0,1,CRITICAL_COLLAPSE
+Cherrapunji AWS (Meghalaya),25.27,91.73,T+24h,45.0,395.0,98.0,1,CRITICAL_COLLAPSE
+Haflong AWS (Assam),25.17,93.01,T+01h,5.0,5.0,46.0,0,NORMAL
+Haflong AWS (Assam),25.17,93.01,T+12h,18.5,95.0,71.0,0,NORMAL
+Haflong AWS (Assam),25.17,93.01,T+18h,36.0,178.0,86.5,1,CRITICAL_COLLAPSE
+Haflong AWS (Assam),25.17,93.01,T+24h,28.0,224.0,91.0,1,CRITICAL_COLLAPSE

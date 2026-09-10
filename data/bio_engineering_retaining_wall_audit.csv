@@ -1,0 +1,5 @@
+structure_id,highway,type,height_m,installed_year,structural_health_condition,bio_engineering,remedial_action
+WALL-NH10-04,NH-10 (KM 28),Gabion Wire Mesh Retaining Wall,12.0,2021,DEFLECTED_BULGE_DETECTED,Vetiver Grass Root System (80% Covered),Install Subsurface French Drains
+WALL-NH29-02,NH-29 (KM 41),Reinforced Concrete Cantilever,18.5,2022,CRACK_DISPLACEMENT_OBSERVED,Hydro-Seeded Bermuda Grass,Micro-Piling & Soil Nailing Required
+WALL-NH6-08,NH-6 (Sonapur),Rock Bolt & Shotcrete Barrier,22.0,2023,GOOD_STABLE,Geo-Matting Wire Grid,Routine Debris Clearance
+WALL-NH27-01,NH-27 (Haflong),Masonry Gravity Retaining Wall,9.5,2019,HYDROSTATIC_WEEP_HOLES_CLOGGED,Natural Bamboo Clumps,Flush Weep Holes & Clear Silt

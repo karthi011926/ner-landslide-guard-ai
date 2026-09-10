@@ -1,0 +1,8 @@
+rock_formation,region,weathering_grade,cohesion_kpa,friction_angle_deg,ucs_mpa,permeability_cm_s,landslide_susceptibility
+Disang Group Shale,Nagaland / Manipur,W4 (Highly Weathered),12.5,24.0,18.0,1.2e-4,VERY_HIGH
+Daling Series Phyllite,Sikkim / Darjeeling,W4 (Highly Weathered),14.0,26.5,22.0,2.5e-4,VERY_HIGH
+Barail Sandstone Shale,Assam (Dima Hasao),W3 (Moderately Weathered),22.0,31.0,38.0,4.1e-4,HIGH
+Bhuban Siltstone Formation,Mizoram,W3 (Moderately Weathered),18.5,28.0,32.0,3.2e-4,HIGH
+Sylhet Limestone,Meghalaya (Jaintia Hills),W2 (Slightly Weathered),35.0,36.0,65.0,8.0e-3,MODERATE
+Central Crystalline Gneiss,Arunachal (Tawang),W2 (Slightly Weathered),45.0,40.0,95.0,5.0e-5,LOW_TO_MODERATE
+Tipam Sandstone,Tripura / Cachar,W3 (Moderately Weathered),24.0,32.5,42.0,6.5e-4,MODERATE

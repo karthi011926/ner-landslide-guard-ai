@@ -1,0 +1,6 @@
+event_year,event_name,state,peak_24h_rainfall_mm,duration_hours,landslides_triggered,economic_loss_crores,road_block_days
+2024,Cyclone Remal Inundation,Mizoram / Assam,182.5,48,64,45.2,6
+2023,Teesta Flash Flood & Dam Outburst,Sikkim,240.0,24,82,120.0,18
+2022,Dima Hasao Hill Deluge,Assam,195.0,72,58,65.0,14
+2021,Kohima - Dimapur Monsoon Subsidence,Nagaland,135.0,36,29,18.5,5
+2020,Cherrapunji - Mawsynram Cloudburst,Meghalaya,310.0,48,44,32.0,7

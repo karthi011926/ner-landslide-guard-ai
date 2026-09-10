@@ -1,0 +1,7 @@
+corridor_id,highway,km_marker,location_name,state,latitude,longitude,annual_slide_frequency,cut_slope_height_m,critical_bypass_route,bypass_distance_km
+CHK-NH10-01,NH-10 (Sikkim Lifeline),KM 29.4,Kalijhora - 29th Mile,Sikkim / WB,26.9389,88.4680,14,85.0,Damdim - Gorubathan - Lava - Pedong,158
+CHK-NH29-01,NH-29 (Nagaland Lifeline),KM 42.1,Dzüdza River Valley Bridge,Nagaland,25.6890,93.9920,11,65.0,Peducha - Tsiesema Bypass,68
+CHK-NH6-01,NH-6 (Meghalaya Lifeline),KM 141.0,Sonapur Tunnel Embankment,Meghalaya,25.1150,92.3680,9,72.0,Khliehriat - Umkiang Bypass,112
+CHK-NH27-01,NH-27 (East-West Corridor),KM 98.6,Jatinga - Haflong Slope,Assam,25.1764,93.0175,8,55.0,Lumding - Umrangso Link,135
+CHK-NH54-01,NH-54 (Aizawl Corridor),KM 12.5,Hunthar Sinking Zone,Mizoram,23.7271,92.7176,12,48.0,Tanhril - Sairang Alternate,42
+CHK-NH13-01,NH-13 (Trans-Arunachal),KM 64.0,Bhalukpong Sessa Escarpment,Arunachal Pradesh,27.1200,92.5400,10,95.0,Seppa - Rupa Alternate Road,185
