@@ -112,14 +112,14 @@ export default function App() {
           <div>
             <div className="flex items-center gap-2">
               <h1 className="font-extrabold text-base tracking-tight text-white">
-                NER LANDSLIDE <span className="text-sky-400">GUARD AI</span>
+              NER LANDSLIDE <span className="text-sky-400">GUARD AI</span> – Landslide Risk Monitoring & Early Warning
               </h1>
               <span className="text-[10px] bg-red-500/20 text-red-300 font-mono font-bold px-2 py-0.5 rounded border border-red-500/40">
                 EARLY WARNING ACTIVE
               </span>
             </div>
             <p className="text-[11px] text-slate-400">
-              Integrated Landslide Susceptibility & Emergency Logistics Command (NER)
+              AI-based landslide risk monitoring, early warning, and emergency response system for India's North Eastern Region (NER).
             </p>
           </div>
         </div>
